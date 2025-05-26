@@ -40,8 +40,8 @@ The main objective is to enhance accessibility for club members. This simple, in
 4.  You may need to grant permission to "Install from Unknown Sources" in your device settings.
 ## Project Structure
 
-* `WelcomeActivity.kt`: Handles the initial splash screen and navigation to the main app. [cite: 11, 12]
-* `MainActivity.kt`: Contains and manages the WebView, its settings, and navigation. [cite: 1, 2, 3, 4, 5, 6, 7, 8, 9]
-* `activity_welcome.xml`: Defines the layout for the welcome screen. [cite: 13, 14, 15]
-* `activity_main.xml`: Defines the layout for the main screen with WebView and ProgressBar. [cite: 10]
-* `AndroidManifest.xml`: Declares app components, permissions (like Internet), and sets the launcher activity. [cite: 16, 17, 18]
+* `WelcomeActivity.kt`: Handles the initial splash screen and navigation to the main app.
+* `MainActivity.kt`: Contains and manages the WebView, its settings, and navigation.
+* `activity_welcome.xml`: Defines the layout for the welcome screen. 
+* `activity_main.xml`: Defines the layout for the main screen with WebView and ProgressBar. 
+* `AndroidManifest.xml`: Declares app components, permissions (like Internet), and sets the launcher activity. 
