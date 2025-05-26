@@ -10,6 +10,9 @@ import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import android.webkit.WebSettings
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.constraintlayout.widget.ConstraintLayout
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +24,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val rootLayout: ConstraintLayout = findViewById(R.id.clo)
+
+        ViewCompat.setOnApplyWindowInsetsListener(rootLayout) { view, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
+
+            view.setPadding(insets.left, insets.top, insets.right, insets.bottom)
+
+            WindowInsetsCompat.CONSUMED
+        }
+
+
 
         webView = findViewById(R.id.webView)
         progressBar = findViewById(R.id.progressBar)
