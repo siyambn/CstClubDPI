@@ -35,7 +35,7 @@ The main objective is to enhance accessibility for club members. This simple, in
 ## How to Install
 
 1.  Navigate to the [**Releases**](https://github.com/siyambn/CstClubDPI/releases) section of this repository.
-2.  ## Download the latest `.apk` : https://github.com/siyambn/CstClubDPI/releases/download/v1.0/CstClubDPI.apk
+2.  ## Download the latest `.apk` v1 : https://github.com/siyambn/CstClubDPI/releases/download/v1.0/CstClubDpiApp.apk
 3.  Open the downloaded file on your Android device.
 4.  You may need to grant permission to "Install from Unknown Sources" in your device settings.
 ## Project Structure
