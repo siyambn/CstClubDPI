@@ -35,7 +35,7 @@ The main objective is to enhance accessibility for club members. This simple, in
 ## How to Install
 
 1.  Navigate to the [**Releases**](https://github.com/siyambn/CstClubDPI/releases) section of this repository.
-2.  ## Download the latest `.apk` v1 : https://github.com/siyambn/CstClubDPI/releases/download/v1.0/CstClubDpiApp.apk
+2.  ## Download the latest `.apk` v2 : https://github.com/siyambn/CstClubDPI/releases/download/V2.0/CST-Club.App.2.o.apk
 3.  Open the downloaded file on your Android device.
 4.  You may need to grant permission to "Install from Unknown Sources" in your device settings.
 ## Project Structure
@@ -44,4 +44,7 @@ The main objective is to enhance accessibility for club members. This simple, in
 * `MainActivity.kt`: Contains and manages the WebView, its settings, and navigation.
 * `activity_welcome.xml`: Defines the layout for the welcome screen. 
 * `activity_main.xml`: Defines the layout for the main screen with WebView and ProgressBar. 
-* `AndroidManifest.xml`: Declares app components, permissions (like Internet), and sets the launcher activity. 
+* `AndroidManifest.xml`: Declares app components, permissions (like Internet), and sets the launcher activity.
+* Redesigned Welcome screen with dark theme & text animation.
+* Implemented animated logo loading screen.
+* Added edge-to-edge display support & fixed layout issues.
